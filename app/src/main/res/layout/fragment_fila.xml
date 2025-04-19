@@ -1,0 +1,69 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tipo de Combustible" />
+
+        <Spinner
+            android:id="@+id/spinnerTipoFila"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Estación"
+            android:layout_marginTop="12dp" />
+
+        <Spinner
+            android:id="@+id/spinnerEstacionFila"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtStockDisponible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stock disponible: N/D"
+            android:paddingTop="8dp"
+            android:textStyle="bold" />
+
+        <fragment
+            android:id="@+id/mapFila"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/btnReiniciarTrazo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reiniciar trazo"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/btnConfirmarFila"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirmar Fila"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:id="@+id/txtResumen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textStyle="italic"
+            android:textSize="16sp"
+            android:paddingTop="16dp"
+            android:layout_marginBottom="16dp" />
+    </LinearLayout>
+</ScrollView>

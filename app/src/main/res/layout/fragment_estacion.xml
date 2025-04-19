@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:padding="16dp">
+
+    <!-- Formulario -->
+    <EditText
+        android:id="@+id/inputNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        android:backgroundTint="#C87722" />
+
+    <EditText
+        android:id="@+id/inputDireccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dirección"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#C87722" />
+
+    <Button
+        android:id="@+id/btnMostrarMapa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Marcar ubicación en el mapa"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#C87722"
+        android:textColor="@android:color/white" />
+
+    <!-- Mapa (intermedio, antes de coordenadas y lista) -->
+    <FrameLayout
+        android:id="@+id/mapContainer"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="10dp"
+        android:visibility="gone" />
+
+    <!-- Coordenadas -->
+    <EditText
+        android:id="@+id/inputLatitud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Latitud"
+        android:inputType="numberDecimal"
+        android:focusable="false"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#C87722" />
+
+    <EditText
+        android:id="@+id/inputLongitud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Longitud"
+        android:inputType="numberDecimal"
+        android:focusable="false"
+        android:backgroundTint="#C87722" />
+
+    <!-- Botón agregar -->
+    <Button
+        android:id="@+id/btnAgregar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agregar"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#C87722"
+        android:textColor="@android:color/white" />
+
+    <!-- Lista -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:paddingBottom="8dp" />
+</LinearLayout>

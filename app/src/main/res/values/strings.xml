@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Gasolinerav3</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_tipo_combustible">Tipo Combustible</string>
+    <string name="title_estacion">Estaciones</string>"
+</resources>

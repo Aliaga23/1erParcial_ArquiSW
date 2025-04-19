@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_tipo_combustible"
+        android:title="Combustible" />
+    <item
+        android:id="@+id/navigation_estacion"
+        android:title="Estaciones" />
+    <item
+        android:id="@+id/navigation_bomba"
+        android:title="Bombas" />
+    <item
+        android:id="@+id/navigation_stock"
+        android:title="Stock" />
+    <item
+        android:id="@+id/navigation_fila"
+        android:title="Fila" />
+</menu>
