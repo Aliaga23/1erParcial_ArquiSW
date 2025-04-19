@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
                 R.id.navigation_estacion,
                 R.id.navigation_bomba,
                 R.id.navigation_stock,
-                R.id.navigation_fila // ← agregado aquí
+                R.id.navigation_fila 
             )
         )
 
