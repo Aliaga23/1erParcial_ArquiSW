@@ -53,11 +53,12 @@ Actualmente en desarrollo. Incluye módulos funcionales para la gestión y simul
 - Acceso a Internet para cargar Google Maps
 
 ## Screenshots
-<img src="https://github.com/user-attachments/assets/ffa59078-a1a4-443a-8433-c2efd65d669d" width="300" />
-<img src="https://github.com/user-attachments/assets/e410bc5a-6b79-4160-87c5-0b5b3e43ca3a" width="300" />
+
 <img src="https://github.com/user-attachments/assets/0604f690-beb5-43d4-a62c-9da461bfabdc" width="300" />
+<img src="https://github.com/user-attachments/assets/e410bc5a-6b79-4160-87c5-0b5b3e43ca3a" width="300" />
+<img src="https://github.com/user-attachments/assets/ffa59078-a1a4-443a-8433-c2efd65d669d" width="300" />
+<img src="https://github.com/user-attachments/assets/28ee59bb-43f7-4954-aa48-31f1c62a3eeb" width="300" />
+<img src="https://github.com/user-attachments/assets/f9a7bee6-7cab-42a9-8fb5-b824fe6826b6" width="300" />
 <img src="https://github.com/user-attachments/assets/db4da954-79bc-46bf-822e-d38f4323d565" width="300" />
 <img src="https://github.com/user-attachments/assets/bdd47907-e20f-490b-8a4d-718fe6eec820" width="300" />
-<img src="https://github.com/user-attachments/assets/f9a7bee6-7cab-42a9-8fb5-b824fe6826b6" width="300" />
-<img src="https://github.com/user-attachments/assets/28ee59bb-43f7-4954-aa48-31f1c62a3eeb" width="300" />
 
