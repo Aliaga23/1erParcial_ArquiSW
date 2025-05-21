@@ -1,4 +1,5 @@
 # GasolineraV3
+> (No use este para el parcial porsiacaso)
 
 GasolineraV3 es una aplicación móvil desarrollada en Kotlin y Java, utilizando una arquitectura de tres capas (Presentación, Negocio, Datos). El sistema permite gestionar estaciones de servicio, registrar información relevante sobre bombas y combustibles, y simular filas de autos para estimar tiempos de atención y consumo de combustible. Utiliza una base de datos local SQLite y el SDK de Google Maps para Android.
 Aplicacion hecha en Kotlin+Java para la materia de Arquitectura de software con la arquitectura 3 capas , tomar en cuenta que el proyecto es meramente nativo , asi que no se utiliza ningun framework ,se recomienda que tal cual este el codigo , este la documentacion.
